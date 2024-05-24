@@ -1,0 +1,8 @@
+node_modules
+
+# Vite output
+/build
+
+.env
+.netlify
+.DS_Store
