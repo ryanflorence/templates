@@ -1,14 +1,13 @@
 [build]
-  publish = "build/client"
-  command = "pnpm build"
+publish = "build/client"
+command = "npm build"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
 
 [[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/assets/*"
-  cache-control = 'immutable, max-age=31536000, public'
-
+# Define which paths this specific [[headers]] block will cover.
+for = "/assets/*"
+cache-control = 'immutable, max-age=31536000, public'
