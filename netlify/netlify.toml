@@ -12,5 +12,4 @@ framework = "vite"
 for = "/build/*"
 
 [headers.values]
-
 "Cache-Control" = "public, max-age=31560000, immutable"
